@@ -1,0 +1,142 @@
+html body {
+    height: 100vh !important;
+}
+
+.background {
+    background: rgb(94, 91, 157);
+    background: linear-gradient(350deg, rgba(94, 91, 157, 1) 0%, rgba(190, 114, 143, 1) 100%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 400;
+    font-size: 68px;
+    margin: 0;
+}
+
+
+.text-white {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* ------    navbar   ------  */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+nav h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    margin: 0;
+    text-align: center;
+}
+
+/* Sections */
+
+.section-child {
+    height: 100%;
+}
+
+.margin-top {
+    margin-top: 15%;
+}
+
+/* .notify-me-btn {
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: solid #ffffff 3px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 3px;
+    transition: 1073ms;
+    transform: translateY(0);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.notify-me-btn:hover {
+    transition: 1073ms;
+    padding: 10px 40px;
+    transform: translateY(-0px);
+    background-color: transparent;
+    color: #ffffff;
+    border: solid 3px #ffffff;
+}
+
+.center {
+    text-align: center;
+}
+
+.mt-btn {
+    margin-top: 18px;
+} */
+
+
+/*  -----  footer -----  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+
+footer p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/*  ------  Responsive media queries ----- */
+
+
+
+/* extra small devices < 576 */
+@media (max-width: 576px) {
+    .main-text {
+        font-size: 35px;
+    }
+
+    .child-text {
+        font-size: 12px;
+    }
+
+    .margin-top {
+        margin-top: 50%;
+    }
+
+}
+
+@media (max-width: 576px) and (min-width: 768px) {
+    .margin-top {
+        margin-top: 50%;
+    }
+}
+
+/*  */
+@media (min-width: 768px) {
+
+    .margin-top {
+        margin-top: 15%;
+    }
+
+}
